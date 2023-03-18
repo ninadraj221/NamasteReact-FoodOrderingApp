@@ -1,3 +1,63 @@
-.h1Class {
-  color: yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 7rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  /* outline: 2px solid black; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+
+  display: flex;
+}
+
+.list-item {
+  padding: 2rem;
+}
+
+.list-item > a {
+  text-decoration: none;
+
+  color: black;
+}
+
+.restaurant-card {
+  width: 250px;
+  padding: 1rem;
+}
+
+.restaurant-card:hover {
+  box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card > * {
+  margin-top: 10px;
+}
+
+.restaurant-card > img {
+  width: 100%;
+}
+
+.body-content {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

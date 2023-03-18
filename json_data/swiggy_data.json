@@ -1,0 +1,1794 @@
+{
+  "type": "seeAllRestaurants",
+  "data": {
+    "title": "SEE ALL",
+    "totalOpenRestaurants": 939,
+    "cards": [
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "435752",
+          "name": "Chaatwich",
+          "uuid": "0ac7125b-c331-4613-a484-4e2e7e6372b6",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "50+ ratings",
+          "cloudinaryImageId": "5c63d2b772133774707ee3841b5ec3f0",
+          "cuisines": [
+            "Healthy Food",
+            "Beverages",
+            "Desserts",
+            "Chaat",
+            "Combo",
+            "Ice Cream",
+            "Indian",
+            "Jain",
+            "Maharashtrian",
+            "Pizzas",
+            "Snacks",
+            "Street Food"
+          ],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 28,
+          "minDeliveryTime": 28,
+          "maxDeliveryTime": 28,
+          "slaString": "28 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "chaatwich-nerul-nerul-3",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No. 7,Welfare Chambers CHS,Plot Number :73,Sector 17, Vashi , Maharashtra, 400703",
+          "locality": "Vashi",
+          "parentId": 5500,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3800,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3800,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3800",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=6137494~p=1~eid=00000186-f459-55b9-14ab-59870086014e",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "435752",
+            "deliveryTime": 28,
+            "minDeliveryTime": 28,
+            "maxDeliveryTime": 28,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.6",
+          "totalRatings": 50,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "30240",
+          "name": "McDonald's",
+          "uuid": "4aea1eeb-78cf-40af-88d0-ed5db49ee162",
+          "city": "5",
+          "area": "Kopar Khairane",
+          "totalRatingsString": "1000+ ratings",
+          "cloudinaryImageId": "7bb739d7f6ae8b4ce8ed590765dffd2f",
+          "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+          "tags": [],
+          "costForTwo": 40000,
+          "costForTwoString": "₹400 FOR TWO",
+          "deliveryTime": 13,
+          "minDeliveryTime": 13,
+          "maxDeliveryTime": 13,
+          "slaString": "13 MINS",
+          "lastMileTravel": 0.4000000059604645,
+          "slugs": {
+            "restaurant": "mcdonalds-koparkhairane-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Balaji Multiplex, Plot #90, Sector #8, Kopar Khairane, Navi Mumbai- 400709",
+          "locality": "Koparkhairane",
+          "parentId": 630,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "10% off",
+            "shortDescriptionList": [
+              {
+                "meta": "10% off | Use PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off | Use code PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "10% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off | Use code PARTY",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.4 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "30240",
+            "deliveryTime": 13,
+            "minDeliveryTime": 13,
+            "maxDeliveryTime": 13,
+            "lastMileTravel": 0.4000000059604645,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.3",
+          "totalRatings": 1000,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "655021",
+          "name": "Burger King",
+          "uuid": "eab5908d-9b60-4850-9656-cbaf6589f730",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "28fb13049b4e55297bb3f703cde63c35",
+          "cuisines": ["Burgers", "American"],
+          "tags": [],
+          "costForTwo": 35000,
+          "costForTwoString": "₹350 FOR TWO",
+          "deliveryTime": 22,
+          "minDeliveryTime": 22,
+          "maxDeliveryTime": 22,
+          "slaString": "22 MINS",
+          "lastMileTravel": 1.7999999523162842,
+          "slugs": {
+            "restaurant": "burger-king-sector-19d-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No. 17, Ground Floor, Palm Beach Road Phase 2,Sector 19 D,Vashi,Maharashtra Navi Mumbai-400703",
+          "locality": "Sector 19D",
+          "parentId": 166,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "Get every item under 129",
+            "shortDescriptionList": [
+              {
+                "meta": "Get every item under 129",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "Get every item under 129",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "",
+            "shortDescriptionList": [
+              {
+                "meta": "",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "Get every item under 129",
+                "discountType": "FinalPrice",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "1.7 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "655021",
+            "deliveryTime": 22,
+            "minDeliveryTime": 22,
+            "maxDeliveryTime": 22,
+            "lastMileTravel": 1.7999999523162842,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.0",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "21430",
+          "name": "KFC",
+          "uuid": "43814bad-9f83-444c-93ad-54cdc06cb0f0",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "500+ ratings",
+          "cloudinaryImageId": "bdcd233971b7c81bf77e1fa4471280eb",
+          "cuisines": ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
+          "tags": [],
+          "costForTwo": 40000,
+          "costForTwoString": "₹400 FOR TWO",
+          "deliveryTime": 26,
+          "minDeliveryTime": 26,
+          "maxDeliveryTime": 26,
+          "slaString": "26 MINS",
+          "lastMileTravel": 4.900000095367432,
+          "slugs": {
+            "restaurant": "kfc-inorbit-mall-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Ground Floor, Inorbit Mall, Sector 30 A, Vashi, Navi Mumbai",
+          "locality": "Inorbit Mall",
+          "parentId": 547,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 4500,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 4500,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "4500",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=6214609~p=4~eid=00000186-f459-55b9-14ab-59880086042e",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "4.9 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "21430",
+            "deliveryTime": 26,
+            "minDeliveryTime": 26,
+            "maxDeliveryTime": 26,
+            "lastMileTravel": 4.900000095367432,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.1",
+          "totalRatings": 500,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "23947",
+          "name": "Pizza Hut",
+          "uuid": "c196d989-90f4-41cc-aab3-9d8fab3aabfa",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "q3aep0skxgoch3ehmnbi",
+          "cuisines": ["Pizzas"],
+          "tags": [],
+          "costForTwo": 35000,
+          "costForTwoString": "₹350 FOR TWO",
+          "deliveryTime": 25,
+          "minDeliveryTime": 25,
+          "maxDeliveryTime": 25,
+          "slaString": "25 MINS",
+          "lastMileTravel": 1.600000023841858,
+          "slugs": {
+            "restaurant": "pizza-hut-sector-28-269-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "PHD, Sec 28, Plot.1A,1B, Vashi Navi Mumbai, Near Blue Diomond Hotel",
+          "locality": "Sector 28",
+          "parentId": 721,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "1.6 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "23947",
+            "deliveryTime": 25,
+            "minDeliveryTime": 25,
+            "maxDeliveryTime": 25,
+            "lastMileTravel": 1.600000023841858,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.0",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "579906",
+          "name": "Oho Shawarma",
+          "uuid": "478e68c2-51b8-4e73-83a2-17f1946d63ff",
+          "city": "5",
+          "area": "Kopar Khairane",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "eyombu4lurqev4uqoyqq",
+          "cuisines": ["Lebanese", "Snacks"],
+          "tags": [],
+          "costForTwo": 22000,
+          "costForTwoString": "₹220 FOR TWO",
+          "deliveryTime": 16,
+          "minDeliveryTime": 16,
+          "maxDeliveryTime": 16,
+          "slaString": "16 MINS",
+          "lastMileTravel": 0.5,
+          "slugs": {
+            "restaurant": "oho-shawarma-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No.6, Plot No.7A, opposite to R.F Naik School, Sector 9, Kopar Khairane, Navi Mumbai, Maharashtra 400709, India",
+          "locality": "Sector 9",
+          "parentId": 151196,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.5 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "579906",
+            "deliveryTime": 16,
+            "minDeliveryTime": 16,
+            "maxDeliveryTime": 16,
+            "lastMileTravel": 0.5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.2",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "259308",
+          "name": "Fresh bake fast food",
+          "uuid": "e787d3cf-dbe2-4849-ad0b-254ad0ab55e3",
+          "city": "5",
+          "area": "Kopar Khairane",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "rxqh5k7angrx6lcthccv",
+          "cuisines": ["North Indian"],
+          "tags": [],
+          "costForTwo": 25000,
+          "costForTwoString": "₹250 FOR TWO",
+          "deliveryTime": 22,
+          "minDeliveryTime": 22,
+          "maxDeliveryTime": 22,
+          "slaString": "22 MINS",
+          "lastMileTravel": 0.699999988079071,
+          "slugs": {
+            "restaurant": "fresh-bake-fast-food-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Monalisa Palace Chs Ltd, RS Regency Rd, Sector 5, Kopar Khairane, Navi Mumbai, Maharashtra, India",
+          "locality": "Vashi",
+          "parentId": 83565,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.6 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "259308",
+            "deliveryTime": 22,
+            "minDeliveryTime": 22,
+            "maxDeliveryTime": 22,
+            "lastMileTravel": 0.699999988079071,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.2",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "625908",
+          "name": "Smootheory\t",
+          "uuid": "cce64970-be02-4360-a7d5-9aeb4d72640b",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "Too Few Ratings",
+          "cloudinaryImageId": "qhlfamj1tvnec0ntd3a8",
+          "cuisines": ["Beverages", "Ice Cream", "Juices"],
+          "tags": [],
+          "costForTwo": 20000,
+          "costForTwoString": "₹200 FOR TWO",
+          "deliveryTime": 18,
+          "minDeliveryTime": 18,
+          "maxDeliveryTime": 18,
+          "slaString": "18 MINS",
+          "lastMileTravel": 0.5,
+          "slugs": {
+            "restaurant": "smootheory-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "SHOP NO. 17,GROUND FLOOR PLOT NO. 19/19A, FAM CHS, SECTOR - 11, KOPARKHAIRANE, Koparkhairane Zone, Navi Mumbai",
+          "locality": "Koparkhairane Zone",
+          "parentId": 372261,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.5 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "625908",
+            "deliveryTime": 18,
+            "minDeliveryTime": 18,
+            "maxDeliveryTime": 18,
+            "lastMileTravel": 0.5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "--",
+          "totalRatings": 0,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "580637",
+          "name": "Good Flippin' Burgers",
+          "uuid": "a482d096-cda7-4016-85c0-42ec43d97e7a",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "c3ba5f77ce2ce09b1aa34d7af539bd64",
+          "cuisines": ["Burgers", "American", "Fast Food", "Beverages"],
+          "tags": [],
+          "costForTwo": 60000,
+          "costForTwoString": "₹600 FOR TWO",
+          "deliveryTime": 26,
+          "minDeliveryTime": 26,
+          "maxDeliveryTime": 26,
+          "slaString": "26 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "good-flippin’-burgers-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No 38 & 41, Shiv CenterPremises, Plot No. 72, Sector 17, Vashi, Navi Mumbai",
+          "locality": "Vashi",
+          "parentId": 11748,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3800,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3800,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3800",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=6185346~p=10~eid=00000186-f459-55b9-14ab-598a00860a38",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "580637",
+            "deliveryTime": 26,
+            "minDeliveryTime": 26,
+            "maxDeliveryTime": 26,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.5",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "633187",
+          "name": "Special Moment Cakes",
+          "uuid": "17282ff6-e9e7-473e-bdd4-4be172dcf7c7",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "Too Few Ratings",
+          "cloudinaryImageId": "hjs3vpbnzvfkw63jxrpt",
+          "cuisines": ["Bakery"],
+          "tags": [],
+          "costForTwo": 40000,
+          "costForTwoString": "₹400 FOR TWO",
+          "deliveryTime": 20,
+          "minDeliveryTime": 20,
+          "maxDeliveryTime": 20,
+          "slaString": "20 MINS",
+          "lastMileTravel": 0.10000000149011612,
+          "slugs": {
+            "restaurant": "special-moment-cakes-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop no. 1 Plot no 1 , haldar liberty building sector 12 koparkhairane navi mumbai - 400709",
+          "locality": "Koparkhairane",
+          "parentId": 379997,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.1 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "633187",
+            "deliveryTime": 20,
+            "minDeliveryTime": 20,
+            "maxDeliveryTime": 20,
+            "lastMileTravel": 0.10000000149011612,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "--",
+          "totalRatings": 0,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "34555",
+          "name": "Smoking Pizza (Kopar khairne)",
+          "uuid": "c7a380a8-fcc5-400f-9c3a-b7d6c49e210b",
+          "city": "5",
+          "area": "Kopar Khairane",
+          "totalRatingsString": "50+ ratings",
+          "cloudinaryImageId": "bczslmu2ldwth2z0ewbh",
+          "cuisines": ["Pizzas"],
+          "tags": [],
+          "costForTwo": 60000,
+          "costForTwoString": "₹600 FOR TWO",
+          "deliveryTime": 24,
+          "minDeliveryTime": 24,
+          "maxDeliveryTime": 24,
+          "slaString": "24 MINS",
+          "lastMileTravel": 0.5,
+          "slugs": {
+            "restaurant": "smoking-pizza-kopar-khairane-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No 10 , Plot 7 A, Sector -9 , Opposite R F Naik School, Near Balaji Multiples",
+          "locality": "Sector 9",
+          "parentId": 189906,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+              {
+                "meta": "20% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "20% off up to ₹50 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "0.5 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "34555",
+            "deliveryTime": 24,
+            "minDeliveryTime": 24,
+            "maxDeliveryTime": 24,
+            "lastMileTravel": 0.5,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "4.2",
+          "totalRatings": 50,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "567089",
+          "name": "Malvan Tadka",
+          "uuid": "37377885-4da4-42e3-a2a7-acfe8fa7847e",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "20+ ratings",
+          "cloudinaryImageId": "t59asmsbomdxktr5onfj",
+          "cuisines": ["Malwani", "Seafood", "Indian", "Chinese"],
+          "tags": [],
+          "costForTwo": 100000,
+          "costForTwoString": "₹1000 FOR TWO",
+          "deliveryTime": 37,
+          "minDeliveryTime": 37,
+          "maxDeliveryTime": 37,
+          "slaString": "37 MINS",
+          "lastMileTravel": 4.699999809265137,
+          "slugs": {
+            "restaurant": "malvan-tadka-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "MALVAN TADKA, G-15&16, BSEL TECH PARK, PLOT NO. 39/5A, SECTOR 30A, VASHI, Vashi Zone (Except APMC Market I, APMC Market II & Onion, Potato, Fruit & Vegatable Market), Navi Mumbai Municipal Corporation",
+          "locality": "Vashi",
+          "parentId": 130977,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 4500,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 4500,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "4500",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=6146502~p=13~eid=00000186-f459-55b9-14ab-598b00860d28",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "4.6 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "567089",
+            "deliveryTime": 37,
+            "minDeliveryTime": 37,
+            "maxDeliveryTime": 37,
+            "lastMileTravel": 4.699999809265137,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.1",
+          "totalRatings": 20,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "688269",
+          "name": "Nagpal's",
+          "uuid": "a5412627-be2d-4bc1-b3be-7e6db149f99c",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "Too Few Ratings",
+          "cloudinaryImageId": "aa50f888b9b8ec172f24eeb7a5ebbf87",
+          "cuisines": ["Beverages"],
+          "tags": [],
+          "costForTwo": 45000,
+          "costForTwoString": "₹450 FOR TWO",
+          "deliveryTime": 21,
+          "minDeliveryTime": 21,
+          "maxDeliveryTime": 21,
+          "slaString": "21 MINS",
+          "lastMileTravel": 1,
+          "slugs": {
+            "restaurant": "nagpal’s-vashi-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Shop No -4, Orchid Residency, plot no 56, Beside IB fitnest, Kopar Khairane Rd, near D Mart Circle, Sector 15, Kopar Khairane, Navi Mumbai, Maharashtra 400709",
+          "locality": "Sector 15, Kopar Khairane",
+          "parentId": 367212,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "1 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "688269",
+            "deliveryTime": 21,
+            "minDeliveryTime": 21,
+            "maxDeliveryTime": 21,
+            "lastMileTravel": 1,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "--",
+          "totalRatings": 0,
+          "new": true
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "137365",
+          "name": "Theobroma",
+          "uuid": "cf16f2c7-a7b9-4f57-8c96-e78c1efe12af",
+          "city": "5",
+          "area": "Vashi",
+          "totalRatingsString": "100+ ratings",
+          "cloudinaryImageId": "rou1szkzwerakoykk66q",
+          "cuisines": ["Bakery", "Desserts"],
+          "tags": [],
+          "costForTwo": 80000,
+          "costForTwoString": "₹800 FOR TWO",
+          "deliveryTime": 18,
+          "minDeliveryTime": 18,
+          "maxDeliveryTime": 18,
+          "slaString": "18 MINS",
+          "lastMileTravel": 3,
+          "slugs": {
+            "restaurant": "theobroma-sector-17-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Theobroma, Shop 1, Arenja Corner, Sector 17, Vashi, Navi Mumbai",
+          "locality": "Arenja Corner",
+          "parentId": 1040,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "10% off",
+            "shortDescriptionList": [
+              {
+                "meta": "10% off | Use SPECIALS",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off on select items | Use code SPECIALS",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "10% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use SPECIALS",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off on select items | Use code SPECIALS",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "ribbon": [
+            {
+              "type": "PROMOTED"
+            }
+          ],
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3800,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3800,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3800",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "cid=6096443~p=16~eid=00000186-f459-55b9-14ab-598c0086103c",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "3 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "137365",
+            "deliveryTime": 18,
+            "minDeliveryTime": 18,
+            "maxDeliveryTime": 18,
+            "lastMileTravel": 3,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": true,
+          "avgRating": "4.5",
+          "totalRatings": 100,
+          "new": false
+        },
+        "subtype": "basic"
+      },
+      {
+        "type": "restaurant",
+        "data": {
+          "type": "F",
+          "id": "73404",
+          "name": "Bismillah Catering",
+          "uuid": "0b995a4b-1c4c-4c01-974d-932062c952cb",
+          "city": "5",
+          "area": "Ghansoli",
+          "totalRatingsString": "500+ ratings",
+          "cloudinaryImageId": "g3og70yawe2wxxgqzxtr",
+          "cuisines": ["Biryani", "Indian"],
+          "tags": [],
+          "costForTwo": 55000,
+          "costForTwoString": "₹550 FOR TWO",
+          "deliveryTime": 15,
+          "minDeliveryTime": 15,
+          "maxDeliveryTime": 15,
+          "slaString": "15 MINS",
+          "lastMileTravel": 1.899999976158142,
+          "slugs": {
+            "restaurant": "bismillah-catering-ghansoli-vashi",
+            "city": "mumbai"
+          },
+          "cityState": "5",
+          "address": "Bismillah Catering, Shop 14,Near Dargah, Sector 1, Ghansoli, Navi Mumbai",
+          "locality": "Sector 1",
+          "parentId": 6200,
+          "unserviceable": false,
+          "veg": false,
+          "select": false,
+          "favorite": false,
+          "tradeCampaignHeaders": [],
+          "aggregatedDiscountInfo": {
+            "header": "10% off",
+            "shortDescriptionList": [
+              {
+                "meta": "10% off | Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off up to ₹40 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "aggregatedDiscountInfoV2": {
+            "header": "10% OFF",
+            "shortDescriptionList": [
+              {
+                "meta": "Use TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "descriptionList": [
+              {
+                "meta": "10% off up to ₹40 | Use code TRYNEW",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+              }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+          },
+          "chain": [],
+          "feeDetails": {
+            "fees": [
+              {
+                "name": "distance",
+                "fee": 3100,
+                "message": ""
+              },
+              {
+                "name": "time",
+                "fee": 0,
+                "message": ""
+              },
+              {
+                "name": "special",
+                "fee": 0,
+                "message": ""
+              }
+            ],
+            "totalFees": 3100,
+            "message": "",
+            "title": "Delivery Charge",
+            "amount": "3100",
+            "icon": ""
+          },
+          "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+          },
+          "longDistanceEnabled": 0,
+          "rainMode": "NONE",
+          "thirdPartyAddress": false,
+          "thirdPartyVendor": "",
+          "adTrackingID": "",
+          "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+          },
+          "lastMileTravelString": "1.8 kms",
+          "hasSurge": false,
+          "sla": {
+            "restaurantId": "73404",
+            "deliveryTime": 15,
+            "minDeliveryTime": 15,
+            "maxDeliveryTime": 15,
+            "lastMileTravel": 1.899999976158142,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+          },
+          "promoted": false,
+          "avgRating": "3.8",
+          "totalRatings": 500,
+          "new": false
+        },
+        "subtype": "basic"
+      }
+    ],
+    "totalRestaurants": 939
+  },
+  "subtype": "personalized"
+}
