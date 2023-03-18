@@ -2,7 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import swiggy_data from "./json_data/swiggy_data.json";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+//This is how we add styles and class to a functional Component
+// const Heading = () => {
+//   return (
+//     <h1
+//       style={{
+//         backgroundColor: "blue",
+//       }}
+//       className="h1Class"
+//     >
+//       Hello World
+//     </h1>
+//   );
+// };
 
 const title = (
   <img
@@ -72,30 +84,42 @@ const RestaurantCard = ({
   );
 };
 
-const Body = () => {
+const RestaurantList = () => {
   return (
-    <div className="body-content container">
+    <div className="restaurant-list">
       {restaurantList.map((restaurant, index) => {
         return (
           <RestaurantCard {...restaurant?.data} key={restaurant?.data?.id} />
         );
       })}
       {/* <RestaurantCard {...restaurantList["0"]?.data} />
-      <RestaurantCard {...restaurantList["1"]?.data} />
-      <RestaurantCard {...restaurantList["2"]?.data} />
-      <RestaurantCard {...restaurantList["3"]?.data} />
-      <RestaurantCard {...restaurantList["4"]?.data} />
-      <RestaurantCard {...restaurantList["5"]?.data} />
-      <RestaurantCard {...restaurantList["6"]?.data} />
-      <RestaurantCard {...restaurantList["7"]?.data} />
-      <RestaurantCard {...restaurantList["8"]?.data} />
-      <RestaurantCard {...restaurantList["9"]?.data} /> */}
+          <RestaurantCard {...restaurantList["1"]?.data} />
+          <RestaurantCard {...restaurantList["2"]?.data} />
+          <RestaurantCard {...restaurantList["3"]?.data} />
+          <RestaurantCard {...restaurantList["4"]?.data} />
+          <RestaurantCard {...restaurantList["5"]?.data} />
+          <RestaurantCard {...restaurantList["6"]?.data} />
+          <RestaurantCard {...restaurantList["7"]?.data} />
+          <RestaurantCard {...restaurantList["8"]?.data} />
+          <RestaurantCard {...restaurantList["9"]?.data} /> */}
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="body-content container">
+      <RestaurantList />
     </div>
   );
 };
 
 const Footer = () => {
-  return <h1>Footer</h1>;
+  return (
+    <div className="footer">
+      <p>© Ninad's Kitchen</p>
+    </div>
+  );
 };
 
 const AppLayout = () => {
@@ -108,18 +132,6 @@ const AppLayout = () => {
   );
 };
 
-//This is how we add styles and class to a functional Component
-// const Heading = () => {
-//   return (
-//     <h1
-//       style={{
-//         backgroundColor: "blue",
-//       }}
-//       className="h1Class"
-//     >
-//       Hello World
-//     </h1>
-//   );
-// };
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<AppLayout />);

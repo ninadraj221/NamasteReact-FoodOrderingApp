@@ -10,6 +10,8 @@
 .container {
   width: 90%;
   margin: auto;
+
+  margin: 2rem auto;
   /* outline: 2px solid black; */
 }
 
@@ -28,7 +30,7 @@
 }
 
 .list-item {
-  padding: 2rem;
+  margin: 0 2rem;
 }
 
 .list-item > a {
@@ -54,10 +56,31 @@
   width: 100%;
 }
 
-.body-content {
-  margin-top: 1rem;
-
+.restaurant-list {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
+  width: 100%;
+}
+
+.body-content {
+  margin-bottom: 3rem;
+}
+
+.footer {
+  width: 100%;
+  height: 5rem;
+
+  background-color: #282c3f;
+  color: whitesmoke;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer > p {
+  align-self: center;
 }
