@@ -1,3 +1,4 @@
+.gitignore
 .parcel-cache
 dist
 node_modules
