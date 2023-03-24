@@ -1,6 +1,7 @@
 const Shimmer_RestoList = () => {
   return (
     <div className="shimmer-restolist-container container">
+      {console.log("Inside Shimmer UI")}
       {Array(10)
         .fill("")
         .map((e, index) => {
