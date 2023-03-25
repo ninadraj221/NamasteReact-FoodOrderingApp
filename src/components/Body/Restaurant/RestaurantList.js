@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import Shimmer_RestoList from "../../Shimmer/Shimmer_RestoList";
 import NoDataFound from "../NoDataFound";
 
+import { Link } from "react-router-dom";
+
 const restaurantList = swiggy_data?.data?.cards;
 
 function filterData(searchedText, restoList) {
@@ -74,10 +76,15 @@ const RestaurantList = () => {
         <div className="restaurant-list">
           {filteredRestaurants.map((restaurant, index) => {
             return (
-              <RestaurantCard
-                {...restaurant?.data}
+              <Link
+                to={"restaurant/" + restaurant?.data?.id}
                 key={restaurant?.data?.id}
-              />
+              >
+                <RestaurantCard
+                  {...restaurant?.data}
+                  // key={restaurant?.data?.id}
+                />
+              </Link>
             );
           })}
         </div>

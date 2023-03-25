@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const title = (
   <img
@@ -16,24 +17,24 @@ const Header = () => {
 
       <ul className="nav-list">
         <li className="list-item">
-          <a href="/" tabIndex={-1}>
+          <Link to="/" tabIndex={-1}>
             Home
-          </a>
+          </Link>
         </li>
         <li className="list-item">
-          <a href="/" tabIndex={-1}>
+          <Link to="/about-us" tabIndex={-1}>
             About Us
-          </a>
+          </Link>
         </li>
         <li className="list-item">
-          <a href="/" tabIndex={-1}>
+          <Link to="/contact-us" tabIndex={-1}>
             Contact Us
-          </a>
+          </Link>
         </li>
         <li className="list-item">
-          <a href="/" tabIndex={-1}>
+          <Link to="/" tabIndex={-1}>
             Cart
-          </a>
+          </Link>
         </li>
         <li className="list-item">
           {isLoggedIn ? (
