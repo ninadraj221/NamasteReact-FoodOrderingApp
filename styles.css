@@ -196,3 +196,9 @@
   font-weight: 800;
   font-size: 4rem;
 }
+
+a {
+  font-style: none;
+  text-decoration: none;
+  color: rgb(67, 63, 63);
+}

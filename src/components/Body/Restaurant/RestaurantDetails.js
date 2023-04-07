@@ -29,9 +29,9 @@ const RestaurantDetails = () => {
 
   // Doing Early Return till the API is called
 
-  if (!restaurantData) {
-    return <NoDataFound />;
-  }
+  // if (!restaurantData) {
+  //   return <NoDataFound />;
+  // }
 
   return (
     <div>
