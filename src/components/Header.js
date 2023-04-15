@@ -17,24 +17,19 @@ const Header = () => {
 
       <ul className="nav-list">
         <li className="list-item">
-          <Link to="/" tabIndex={-1}>
-            Home
-          </Link>
+          <Link to="/">Home</Link>
         </li>
         <li className="list-item">
-          <Link to="/about-us" tabIndex={-1}>
-            About Us
-          </Link>
+          <Link to="/about-us">About Us</Link>
         </li>
         <li className="list-item">
-          <Link to="/contact-us" tabIndex={-1}>
-            Contact Us
-          </Link>
+          <Link to="/contact-us">Contact Us</Link>
         </li>
         <li className="list-item">
-          <Link to="/" tabIndex={-1}>
-            Cart
-          </Link>
+          <Link to="/">Cart</Link>
+        </li>
+        <li className="list-item">
+          <Link to="/test">Test Component</Link>
         </li>
         <li className="list-item">
           {isLoggedIn ? (

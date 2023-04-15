@@ -11,6 +11,7 @@ import RestaurantDetails from "./components/Body/Restaurant/RestaurantDetails";
 import ProfileClass from "./components/ProfileClass";
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Test from "./components/Test1";
 
 //This is how we add styles and class to a functional Component
 // const Heading = () => {
@@ -63,6 +64,10 @@ const AppRouter = createBrowserRouter([
       {
         path: "/restaurant/:resto_id",
         element: <RestaurantDetails />,
+      },
+      {
+        path: "/test",
+        element: <Test />,
       },
     ],
   },
