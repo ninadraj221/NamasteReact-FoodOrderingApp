@@ -3,18 +3,11 @@ import swiggy_data from "../../../../json_data/swiggy_data.json";
 import { useState, useEffect } from "react";
 import Shimmer_RestoList from "../../Shimmer/Shimmer_RestoList";
 import NoDataFound from "../NoDataFound";
+import { filterData } from "../../../Utils/helper";
 
 import { Link } from "react-router-dom";
 
 const restaurantList = swiggy_data?.data?.cards;
-
-function filterData(searchedText, restoList) {
-  const filteredData = restoList.filter((resto) =>
-    resto?.data?.name?.toLowerCase().includes(searchedText.toLowerCase())
-  );
-
-  return filteredData;
-}
 
 const RestaurantList = () => {
   const [searchText, setSearchText] = useState("");
