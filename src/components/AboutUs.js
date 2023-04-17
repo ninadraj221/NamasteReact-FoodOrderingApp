@@ -1,39 +1,46 @@
 import { Outlet } from "react-router-dom";
 import ProfileClass from "./ProfileClass";
 import ProfileFunctional from "./ProfileFunctional";
-import { Component } from "react";
+import { Component, useEffect } from "react";
 
-// const AboutUs = () => {
-//   return (
-//     <>
-//       <h1>About Us</h1>
-//       <ProfileClass name={"Ninad"} xyz="xyz" />
-//       {/* <Outlet /> */}
-//     </>
-//   );
-// };
+const AboutUs = () => {
+  console.log("Parent Render");
 
-class AboutUs extends Component {
-  constructor(props) {
-    super(props);
-    // console.log("Parent Constructor");
-  }
+  useEffect(() => {
+    console.log("Parent Use Effect");
+  }, []);
 
-  render() {
-    // console.log("Parent Render");
+  return (
+    <>
+      <h1>About Us</h1>
+      {/* <ProfileClass abc="abc" /> */}
+      {<ProfileFunctional abc="abc" />}
+      {/* <Outlet /> */}
+    </>
+  );
+};
 
-    return (
-      <div>
-        <h1>About Us</h1>
-        <ProfileClass abc="abc" />
-        {/* <ProfileFunctional abc="abc" /> */}
-      </div>
-    );
-  }
+// class AboutUs extends Component {
+//   constructor(props) {
+//     super(props);
+//     // console.log("Parent Constructor");
+//   }
 
-  componentDidMount() {
-    // console.log("Parent componentDidMount");
-  }
-}
+//   render() {
+//     // console.log("Parent Render");
+
+//     return (
+//       <div>
+//         <h1>About Us</h1>
+//         {/* <ProfileClass abc="abc" /> */}
+//         {/* <ProfileFunctional abc="abc" /> */}
+//       </div>
+//     );
+//   }
+
+//   componentDidMount() {
+//     // console.log("Parent componentDidMount");
+//   }
+// }
 
 export default AboutUs;

@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 const useRestaurant = (resto_id) => {
   const [restaurantData, setRestaurantData] = useState(null);
 
+  // let restaurantData = null;
+
   console.log("Inside useRest hook Render");
 
   //Fetch Rest Data from API
@@ -25,6 +27,7 @@ const useRestaurant = (resto_id) => {
       );
 
       setRestaurantData(json?.data?.cards[0]?.card?.card?.info);
+      // restaurantData = json?.data?.cards[0]?.card?.card?.info;
     } catch (e) {
       console.log(e);
     }

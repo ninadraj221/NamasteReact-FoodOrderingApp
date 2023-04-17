@@ -3,8 +3,12 @@ import { useState, useEffect } from "react";
 const ProfileFunctional = (props) => {
   const [count, setCount] = useState(0);
 
+  console.log("Child Render");
+
   useEffect(() => {
     //API call
+
+    console.log("Child Use Effect");
 
     const timer = setInterval(() => {
       console.log("Hello Ninad");
