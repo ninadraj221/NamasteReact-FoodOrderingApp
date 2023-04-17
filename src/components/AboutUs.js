@@ -16,23 +16,23 @@ import { Component } from "react";
 class AboutUs extends Component {
   constructor(props) {
     super(props);
-    console.log("Parent Constructor");
+    // console.log("Parent Constructor");
   }
 
   render() {
-    console.log("Parent Render");
+    // console.log("Parent Render");
 
     return (
       <div>
         <h1>About Us</h1>
-        {/* <ProfileClass abc="abc" /> */}
-        <ProfileFunctional abc="abc" />
+        <ProfileClass abc="abc" />
+        {/* <ProfileFunctional abc="abc" /> */}
       </div>
     );
   }
 
   componentDidMount() {
-    console.log("Parent componentDidMount");
+    // console.log("Parent componentDidMount");
   }
 }
 

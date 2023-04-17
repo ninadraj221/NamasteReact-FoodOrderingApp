@@ -36,6 +36,7 @@ class ProfileClass extends React.Component {
         <h2>Count : {this.state.count}</h2>
         <button
           onClick={() => {
+            console.log("setState Changed of Count");
             this.setState({
               count: this.state.count + 1,
             });
@@ -66,13 +67,14 @@ class ProfileClass extends React.Component {
         //   location: json?.location,
         // },
         userInfo: json,
+        count: 1,
       });
 
       console.log("Child componentDidMount 2");
 
-      this.timer = setInterval(() => {
-        console.log("Hello Ninad");
-      }, 1000);
+      // this.timer = setInterval(() => {
+      //   console.log("Hello Ninad");
+      // }, 1000);
     } catch (error) {
       console.error(error);
     }
@@ -80,13 +82,25 @@ class ProfileClass extends React.Component {
 
   //Adding the Concept of Dependency Array to componentDidUpdate i.e adding prevProps and prevState
   componentDidUpdate(prevProps, prevState) {
-    console.log(prevProps, prevState, this);
+    console.log(
+      "componentDidUpdate",
+      prevProps,
+      prevState,
+      this.state.count,
+      prevState.count
+    );
 
     if (this.state.count !== prevState.count) {
       console.log("State of count changed !");
-    }
 
-    console.log("componentDidUpdate");
+      this.setState({
+        // userInfo: {
+        //   name: json?.name,
+        //   location: json?.location,
+        // },
+        count: 1,
+      });
+    }
   }
 
   componentWillUnmount() {
