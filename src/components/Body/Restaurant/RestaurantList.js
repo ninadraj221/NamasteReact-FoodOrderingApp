@@ -7,42 +7,42 @@ import { filterData } from "../../../Utils/helper";
 
 import { Link } from "react-router-dom";
 
-import useGetRestaurantList from "../../../Utils/useGetRestaurantList";
+// import useGetRestaurantList from "../../../Utils/useGetRestaurantList";
 
 const restaurantList = swiggy_data?.data?.cards;
 
 const RestaurantList = () => {
   const [searchText, setSearchText] = useState("");
   const [filteredRestaurants, setFilteredRestaurants] = useState([]);
-  // const [allRestaurants, setAllRestaurants] = useState([]);
+  const [allRestaurants, setAllRestaurants] = useState([]);
 
-  // async function getRestauranList() {
-  //   try {
-  //     const data = await fetch(
-  //       "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0970737&lng=73.0117476&page_type=DESKTOP_WEB_LISTING"
-  //     );
+  async function getRestauranList() {
+    try {
+      const data = await fetch(
+        "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0970737&lng=73.0117476&page_type=DESKTOP_WEB_LISTING"
+      );
 
-  //     const json = await data.json();
+      const json = await data.json();
 
-  //     if (json?.statusCode === 0) {
-  //       setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
-  //       setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
-  //     }
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
+      if (json?.statusCode === 0) {
+        setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+        setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  }
 
   useEffect(() => {
-    //Here it is not returning only calling this function as a result we aren't getting any errors
-    // getRestauranList();
+    // Here it is not returning only calling this function as a result we aren't getting any errors
+    getRestauranList();
 
-    console.log("From useEffect Comp", allRestaurants);
-    setFilteredRestaurants(allRestaurants);
+    // console.log("From useEffect Comp", allRestaurants);
+    // setFilteredRestaurants(allRestaurants);
   }, []);
 
-  const allRestaurants = useGetRestaurantList();
-  console.log("Render Comp ", allRestaurants);
+  // const allRestaurants = useGetRestaurantList();
+  // console.log("Render Comp ", allRestaurants);
 
   return allRestaurants.length === 0 ? (
     <Shimmer_RestoList />
